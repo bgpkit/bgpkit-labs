@@ -1,0 +1,17 @@
+[package]
+name = "peer-stats"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+reqwest = {version="0.11", features=["blocking", "json"]}
+serde = {version="1", features=["derive"]}
+serde_json = {version = "1.0", features = ["std"]}
+
+rayon="1.5.1"
+
+bgpkit-parser = "0.6.0-rc.6"
+bgp-models = "0.6.0-rc.1"
