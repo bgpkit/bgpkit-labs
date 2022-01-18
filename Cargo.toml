@@ -3,4 +3,5 @@
 members = [
     "collector-peers",
     "sonatel-dec-2021",
+    "verizon-jan-2022",
 ]
